@@ -42,9 +42,31 @@ header {
 }
 
 header h1 {
-  color: var(--lightFont);
+  color: var(--darkFont);
   background-color: var(--secondary);
   padding: 5px 1% 5px 6%;
   margin: 0;
   font-size:xx-large;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+nav a {
+  text-decoration: none;
+  padding: 5px 15px;
+  color: var(--lightFont);
+  display: flex;
+}
+
+.target {
+  font-size: 16px;
+  transition: font-size 1s 1s;
+}
+
+.target:hover {
+  font-size: 18px;
 }
