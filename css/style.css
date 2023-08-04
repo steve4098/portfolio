@@ -2,6 +2,11 @@
   box-sizing: border-box;
 }
 
+:root {
+
+
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -20,4 +25,16 @@ h6 {
 
 p {
   margin: 0;
+}
+
+
+header {
+  padding: 10px 1% 10px 0%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: rgb(102, 1, 52);
+  box-shadow: 0 5px 35px rgba(146,204,206,0.4);
 }
