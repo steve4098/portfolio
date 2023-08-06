@@ -43,10 +43,12 @@ header {
 }
 
 header h1 {
-  color: var(--darkFont);
+  color: var(--lightFont);
   background-color: var(--secondary);
   padding: 5px 1% 5px 6%;
   margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: oblique;
   font-size:xx-large;
 }
 
@@ -117,7 +119,20 @@ text-align: right;
 }
 
 .page-section h2 {
-  margin: ;
-  padding: ;
-  
+  flex: 0 0 25%;
+  margin: 5px;
+  padding: 10px 5px;
+  text-align: center;
+  border-right: 5px solid var(--primary);
+  font-size: 30px;
+}
+
+.page-section div {
+flex: 0 0 70%;
+
+}
+
+.page-section p {
+  margin-bottom: 10px;
+  margin-right: 5px;
 }
