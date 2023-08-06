@@ -157,6 +157,7 @@ flex: 0 0 70%;
   background-repeat: no-repeat;
   background-size:cover;
   margin: 5px;
+  text-decoration: none;
 }
 
 .grid-item-soon1 {
@@ -198,3 +199,25 @@ flex: 0 0 70%;
   background-size:cover;
   margin: 5px;
 }
+
+.grid-item-refactoring h1, 
+.grid-item-soon1 h1, 
+.grid-item-soon2 h1,
+.grid-item-soon3 h1, 
+.grid-item-soon4 h1 {
+  color: var(--lightFont);
+  display: flex;
+  justify-content: end;
+}
+
+.grid-item-refactoring span,
+.grid-item-soon1 span,
+.grid-item-soon2 span,
+.grid-item-soon3 span,
+.grid-item-soon4 span  {
+  color: var(--lightFont);
+  display: flex;
+  justify-content: end;
+  font-style: italic;
+}
+
