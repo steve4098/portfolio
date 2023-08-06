@@ -144,37 +144,57 @@ flex: 0 0 70%;
   grid-template-areas: "top-row top-row"
   "middle-left middle-right"
   "bottom-left bottom-right";
-  max-height: 300px;
+  max-height: 500px;
+  min-height: 500px;
 
 }
 
 .grid-item-refactoring {
   grid-area: top-row;
-  border: 3px solid var(--darkFont);
-  background-image: ;
+  border: 2px solid var(--darkFont);
+  background-image: url(../images/5.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  margin: 5px;
 }
 
 .grid-item-soon1 {
   grid-area: middle-left;
-  border: 3px solid var(--darkFont);
+  border: 2px solid var(--darkFont);
   background-image: url(../images/1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  margin: 5px;
 }
 
 .grid-item-soon2 {
   grid-area: middle-right;
-  border: 3px solid var(--darkFont);
+  border: 2px solid var(--darkFont);
   background-image: url(../images/2.jpg);
-  
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  margin: 5px;
 }
 
 .grid-item-soon3 {
   grid-area: bottom-left;
-  border: 3px solid var(--darkFont);
+  border: 2px solid var(--darkFont);
   background-image: url(../images/3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  margin: 5px;
 }
 
 .grid-item-soon4 {
   grid-area: bottom-right;
-  border: 3px solid var(--darkFont);
+  border: 2px solid var(--darkFont);
   background-image: url(../images/4.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  margin: 5px;
 }
