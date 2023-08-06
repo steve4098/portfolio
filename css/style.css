@@ -5,7 +5,7 @@
 :root {
 --lightFont: rgb(231, 174, 248);
 --darkFont: rgb(2, 53, 2);
---secondary: rgb(3, 171, 201);
+--secondary: rgb(3, 171, 201, 0.5);
 --primary: rgb(42, 35, 53);
 
 }
@@ -78,7 +78,7 @@ min-height: 30vh;
 padding: 5px 5px;
 display: flex;
 justify-content: flex-end;
-align-items: flex-end;
+align-items: flex-start;
 font-style: italic;
 text-align: right;
 }
@@ -92,9 +92,32 @@ text-align: right;
   background-color: var(--primary);
   display: flex;
   color: var(--lightFont);
-  padding: 5px 5px;
+  padding: 5px 5px 5px 20px;
   margin: 2px; 
   display: inline;
   font-size: 25px;
 
+}
+
+.page-wrapper {
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.page-section {
+  margin: 20px 0;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: center;
+}
+
+.page-section h2 {
+  margin: ;
+  padding: ;
+  
 }
