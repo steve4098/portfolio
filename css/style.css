@@ -85,6 +85,17 @@ font-style: italic;
 text-align: right;
 }
 
+.hero-banner img {
+  border-radius: 30%;
+  position:relative;
+  top: 12px;
+  left: 25px;
+  margin: 2px solid black;
+  width: 150px;
+  height: 150px;
+  z-index: 1;
+}
+
 .hero-banner div {
   flex: 0 0 90%;
   
