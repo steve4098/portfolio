@@ -38,7 +38,7 @@ header {
   justify-content: space-between;
   flex-wrap: wrap;
   align-items: center;
-  background-color: rgb(59, 0, 73);
+  background: linear-gradient(var(--primary), black, var(--darkFont));
   box-shadow: 0 5px 35px rgba(146,204,206,0.4);
 }
 
@@ -208,7 +208,12 @@ flex: 0 0 70%;
 .grid-item-soon4 h1 {
   color: var(--lightFont);
   display: flex;
-  justify-content: end;
+  background-color: black;
+  padding: 2px 2px;
+  margin-left: 2px;
+  margin-right: 55%;
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.5);
+  ;
 }
 
 .grid-item-refactoring span,
@@ -218,8 +223,13 @@ flex: 0 0 70%;
 .grid-item-soon4 span  {
   color: var(--lightFont);
   display: flex;
-  justify-content: end;
+  justify-content: start;
+  align-items: end;
   font-style: italic;
+  background-color: black;
+  padding: 5px 5px;
+  margin-left: 2px;
+  margin-right: 55%;
 }
 
 #contact a {
