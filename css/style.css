@@ -122,9 +122,10 @@ text-align: right;
   flex: 0 0 25%;
   margin: 5px;
   padding: 10px 5px;
-  text-align: center;
+  text-align: right;
   border-right: 5px solid var(--primary);
-  font-size: 30px;
+  font-size: 250%;
+  text-shadow: 1px 5px 5px rgba(24, 44, 48, 0.5);
 }
 
 .page-section div {
@@ -221,3 +222,14 @@ flex: 0 0 70%;
   font-style: italic;
 }
 
+#contact a {
+display: inline-flex;
+align-items: center;
+flex-direction: row;
+justify-content:space-around;
+text-decoration: none;
+color: black;
+font-size: 20px;
+padding: 20px;
+flex-wrap:nowrap;
+}
