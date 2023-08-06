@@ -4,7 +4,7 @@
 
 :root {
 --lightFont: rgb(231, 174, 248);
---darkFont: rgb(2, 53, 2);
+--darkFont: rgb(35, 37, 35);
 --secondary: rgb(3, 171, 201, 0.5);
 --primary: rgb(42, 35, 53);
 
@@ -150,20 +150,31 @@ flex: 0 0 70%;
 
 .grid-item-refactoring {
   grid-area: top-row;
+  border: 3px solid var(--darkFont);
+  background-image: ;
 }
 
 .grid-item-soon1 {
   grid-area: middle-left;
+  border: 3px solid var(--darkFont);
+  background-image: url(../images/1.jpg);
 }
 
 .grid-item-soon2 {
   grid-area: middle-right;
+  border: 3px solid var(--darkFont);
+  background-image: url(../images/2.jpg);
+  
 }
 
 .grid-item-soon3 {
   grid-area: bottom-left;
+  border: 3px solid var(--darkFont);
+  background-image: url(../images/3.jpg);
 }
 
 .grid-item-soon4 {
   grid-area: bottom-right;
+  border: 3px solid var(--darkFont);
+  background-image: url(../images/4.jpg);
 }
