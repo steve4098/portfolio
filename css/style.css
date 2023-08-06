@@ -136,3 +136,34 @@ flex: 0 0 70%;
   margin-bottom: 10px;
   margin-right: 5px;
 }
+
+.grid-container {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "top-row top-row"
+  "middle-left middle-right"
+  "bottom-left bottom-right";
+  max-height: 300px;
+
+}
+
+.grid-item-refactoring {
+  grid-area: top-row;
+}
+
+.grid-item-soon1 {
+  grid-area: middle-left;
+}
+
+.grid-item-soon2 {
+  grid-area: middle-right;
+}
+
+.grid-item-soon3 {
+  grid-area: bottom-left;
+}
+
+.grid-item-soon4 {
+  grid-area: bottom-right;
+}
