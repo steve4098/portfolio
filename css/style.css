@@ -351,3 +351,56 @@ footer img {
     margin-bottom: 100px;
   }
 }
+
+@media screen and (max-width: 500px) {
+  header {
+    padding: 0 0 10px;
+    justify-content: center;
+    text-align: center;
+  }
+
+  header h1 {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    font-size: 10vw;
+  }
+
+  header nav {
+    justify-content: center;
+  }
+
+  .page-section h2,
+  .page-section div {
+    flex: 0 0 100%;
+  }
+
+  .page-section h2 {
+    border-right: none;
+    border-bottom: 4px solid var(--darkFont);
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    text-align: left;
+    font-size: 7vw;
+  }
+
+  .hero-banner img {
+    border-radius: 30%;
+    position:relative;
+    top: 22px;
+    left: 30%;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+    grid-template-areas: "top-row"
+    "middle-left"
+    "middle-right"
+    "bottom-left" 
+    "bottom-right";
+    max-height: 950px;
+    margin-bottom: 100px;
+  }
+}
