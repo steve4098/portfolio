@@ -1,7 +1,7 @@
 * {
   box-sizing: border-box;
 }
-
+/*variables for colours used through css*/
 :root {
 --lightFont: rgb(231, 174, 248);
 --darkFont: rgb(35, 37, 35);
@@ -10,6 +10,7 @@
 
 }
 
+/*default settings for body section*/
 body {
   margin: 0;
   padding: 0;
@@ -17,6 +18,7 @@ body {
   line-height: 1.5;
 }
 
+/*default settings for headings*/
 h1,
 h2,
 h3,
@@ -26,11 +28,12 @@ h6 {
   margin: 0;
 }
 
+/*default settings for paragraphs*/
 p {
   margin: 0;
 }
 
-
+/*settings for header section*/
 header {
   padding: 10px 2% 10px 0%;
   display: flex;
@@ -42,6 +45,7 @@ header {
   box-shadow: 0 5px 35px rgba(146,204,206,0.4);
 }
 
+/*settings for h1 headings in header section*/
 header h1 {
   color: var(--lightFont);
   background-color: var(--secondary);
@@ -52,6 +56,7 @@ header h1 {
   font-size:xx-large;
 }
 
+/*settings for nav menu*/
 nav {
   display: flex;
   flex-direction: row;
@@ -70,6 +75,7 @@ nav a:hover {
   font-size: 18px;
 }
 
+/*settings for main image*/
 .hero-banner {
   background-color: black;
 background-image: url("../images/hero-bg.jpg");
@@ -85,6 +91,7 @@ font-style: italic;
 text-align: right;
 }
 
+/*settings for avatar image*/
 .hero-banner img {
   border-radius: 30%;
   position:relative;
@@ -101,6 +108,7 @@ text-align: right;
   
 }
 
+/*settings for "here for the code" heading*/
 .hero-banner h2 {
   background-color: var(--primary);
   display: flex;
@@ -112,6 +120,7 @@ text-align: right;
 
 }
 
+/*settings for two columns layout of main body*/
 .page-wrapper {
   max-width: 80%;
   margin-left: auto;
@@ -119,6 +128,7 @@ text-align: right;
 
 }
 
+/*settings for portfolio container*/
 .page-section {
   margin: 20px 0;
   padding: 10px;
@@ -129,6 +139,7 @@ text-align: right;
   justify-content: center;
 }
 
+/*settings for portfolio container heading*/
 .page-section h2 {
   flex: 0 0 25%;
   margin: 5px;
@@ -144,11 +155,13 @@ flex: 0 0 70%;
 
 }
 
+/*settings for portfolio container paragraph*/
 .page-section p {
   margin-bottom: 10px;
   margin-right: 5px;
 }
 
+/*settings for portfolio container grid layout*/
 .grid-container {
   display: grid;
   grid-template-rows: 1fr 1fr 1fr;
@@ -158,9 +171,9 @@ flex: 0 0 70%;
   "bottom-left bottom-right";
   max-height: 500px;
   min-height: 500px;
-
 }
 
+/*settings for portfolio items*/
 .grid-item-refactoring {
   grid-area: top-row;
   border: 2px solid var(--darkFont);
@@ -212,6 +225,7 @@ flex: 0 0 70%;
   margin: 5px;
 }
 
+/*settings for portfolio item headings*/
 .grid-item-refactoring h1, 
 .grid-item-soon1 h1, 
 .grid-item-soon2 h1,
@@ -244,6 +258,7 @@ flex: 0 0 70%;
   text-shadow: 0px 0px 1px rgba(0, 0, 0, 1);
 }
 
+/*settings for contact details*/
 #contact a {
 display: inline-flex;
 align-items: center;
@@ -256,6 +271,7 @@ padding: 20px;
 flex-wrap:nowrap;
 }
 
+/*media queries*/
 @media screen and (max-width: 1000px) {
 
 }
