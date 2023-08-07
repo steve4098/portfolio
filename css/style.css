@@ -96,7 +96,7 @@ text-align: right;
   border-radius: 30%;
   position:relative;
   top: 12px;
-  left: 25px;
+  left: 3%;
   margin: 2px solid black;
   width: 150px;
   height: 150px;
@@ -284,5 +284,60 @@ transition: all 0.25s ease-in;
 
 /*media queries*/
 @media screen and (max-width: 1000px) {
+  header {
+    padding 0 0 10px;
+    justify-content: center;
+    text-align: center;
+  }
+  header h1 {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    font-size: 10vw;
+  }
+
+  header nav {
+    justify-content: center;
+  }
+
+  .grid-container {
+    margin-bottom: 70px;
+  }
+
+  .page-section h2,
+  .page-section div {
+    flex: 0 0 100%;
+  }
+
+  .page-section h2 {
+    border-right: none;
+    border-bottom: 4px solid var(--darkFont);
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    text-align: left;
+    font-size: 7vw;
+  }
+
+  .hero-banner img {
+    border-radius: 30%;
+    position:relative;
+    top: 12px;
+    left: 10%;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+    grid-template-areas: "top-row"
+    "middle-left"
+    "middle-right"
+    "bottom-left" 
+    "bottom-right";
+    max-height: 500px;
+    margin-bottom: 100px;
+  }
+
+
 
 }
