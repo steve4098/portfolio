@@ -130,7 +130,7 @@ text-align: right;
 
 /*settings for portfolio container*/
 .page-section {
-  margin: 20px 0;
+  margin: 20px 5px;
   padding: 10px;
   display: flex;
   flex-direction: row;
@@ -169,8 +169,7 @@ flex: 0 0 70%;
   grid-template-areas: "top-row top-row"
   "middle-left middle-right"
   "bottom-left bottom-right";
-  max-height: 500px;
-  min-height: 500px;
+  margin-bottom: 20px;
 }
 
 /*settings for portfolio items*/
@@ -269,6 +268,7 @@ text-decoration: none;
 color: black;
 font-size: 20px;
 padding: 20px;
+margin-top: 20px;
 flex-wrap:nowrap;
 background-repeat: no-repeat;
 background-size: 100% 0.2em;
@@ -282,13 +282,30 @@ transition: all 0.25s ease-in;
   color: var(--darkFont)
 }
 
+footer h3 {
+  text-align: center;
+  margin: 2px;
+  padding: 15px 3px 0 3px;
+  border-top: 2px dashed var(--lightFont);
+}
+
+footer img {
+  position: relative;
+  top: 2px;
+  left: 85%;
+  display: inline;
+  max-height: 50px;
+  
+}
+
 /*media queries*/
 @media screen and (max-width: 1000px) {
   header {
-    padding 0 0 10px;
+    padding: 0 0 10px;
     justify-content: center;
     text-align: center;
   }
+
   header h1 {
     width: 100%;
     padding: 5px;
@@ -298,10 +315,6 @@ transition: all 0.25s ease-in;
 
   header nav {
     justify-content: center;
-  }
-
-  .grid-container {
-    margin-bottom: 70px;
   }
 
   .page-section h2,
@@ -334,10 +347,7 @@ transition: all 0.25s ease-in;
     "middle-right"
     "bottom-left" 
     "bottom-right";
-    max-height: 500px;
+    max-height: 750px;
     margin-bottom: 100px;
   }
-
-
-
 }
