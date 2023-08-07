@@ -352,7 +352,7 @@ footer img {
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 750px) {
   header {
     padding: 0 0 10px;
     justify-content: center;
