@@ -403,4 +403,11 @@ footer img {
     max-height: 1100px;
     margin-bottom: 100px;
   }
+
+  footer img {
+    position: relative;
+    left: 35%;
+    top: 2px;
+
+  }
 }
